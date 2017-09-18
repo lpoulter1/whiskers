@@ -12,6 +12,21 @@
           crossorigin="anonymous">
     <link rel="stylesheet" href="site.css">
 
+    <script
+            src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+    <script src="site.js"></script>
+
+    <!-- References: https://github.com/fancyapps/fancyBox -->
+    <link rel="stylesheet"
+          href="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"
+          media="screen">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+
     <title>Waggles and Whiskers</title>
 </head>
 <body>
@@ -35,15 +50,65 @@
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
                 <li><a href="prices.html">Services & Prices</a></li>
-                <li class="active"><a href="#">Gallery <span class="sr-only">(current)</span></a></li>
+                <li class="active"><a href="#">Gallery <span class="sr-only">(current)</span></a>
+                </li>
             </ul>
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
 </nav>
 <div class="container">
     <section class="row">
-        <h1>Gallery</h1>
-    </section>
+        <div class='list-group gallery'>
+            <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+                <a class="thumbnail fancybox" rel="ligthbox" href="http://placehold.it/300x320.png">
+                    <img class="img-responsive" alt="" src="http://placehold.it/320x320"/>
+                    <div class='text-right'>
+                        <small class='text-muted'>Image Title</small>
+                    </div> <!-- text-right / end -->
+                </a>
+            </div> <!-- col-6 / end -->
+            <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+                <a class="thumbnail fancybox" rel="ligthbox" href="http://placehold.it/300x320.png">
+                    <img class="img-responsive" alt="" src="http://placehold.it/320x320"/>
+                    <div class='text-right'>
+                        <small class='text-muted'>Image Title</small>
+                    </div> <!-- text-right / end -->
+                </a>
+            </div> <!-- col-6 / end -->
+            <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+                <a class="thumbnail fancybox" rel="ligthbox" href="http://placehold.it/300x320.png">
+                    <img class="img-responsive" alt="" src="http://placehold.it/320x320"/>
+                    <div class='text-right'>
+                        <small class='text-muted'>Image Title</small>
+                    </div> <!-- text-right / end -->
+                </a>
+            </div> <!-- col-6 / end -->
+            <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+                <a class="thumbnail fancybox" rel="ligthbox" href="http://placehold.it/300x320.png">
+                    <img class="img-responsive" alt="" src="http://placehold.it/320x320"/>
+                    <div class='text-right'>
+                        <small class='text-muted'>Image Title</small>
+                    </div> <!-- text-right / end -->
+                </a>
+            </div> <!-- col-6 / end -->
+            <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+                <a class="thumbnail fancybox" rel="ligthbox" href="http://placehold.it/300x320.png">
+                    <img class="img-responsive" alt="" src="http://placehold.it/320x320"/>
+                    <div class='text-right'>
+                        <small class='text-muted'>Image Title</small>
+                    </div> <!-- text-right / end -->
+                </a>
+            </div> <!-- col-6 / end -->
+            <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+                <a class="thumbnail fancybox" rel="ligthbox" href="http://placehold.it/300x320.png">
+                    <img class="img-responsive" alt="" src="http://placehold.it/320x320"/>
+                    <div class='text-right'>
+                        <small class='text-muted'>Image Title</small>
+                    </div> <!-- text-right / end -->
+                </a>
+            </div> <!-- col-6 / end -->
+        </div> <!-- list-group / end -->
+    </section> <!-- row / end -->
 </div>
 </body>
 </html>
