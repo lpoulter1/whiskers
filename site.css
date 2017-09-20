@@ -54,6 +54,10 @@
   color: white;
 }
 
+.footer a {
+  color: white;
+}
+
 .nav-logo-container {
   position: relative;
   top: 0;
