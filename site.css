@@ -79,6 +79,15 @@ a.thumbnail.active, a.thumbnail:focus, a.thumbnail:hover {
 .nav-logo {
   width: 100px;
 }
+
+.index_logo_container {
+
+}
+
+.index_logo {
+  border: 1px solid;
+  padding: 15px;
+}
 @media only screen and (max-width: 768px) {
   .header-logo {
     display: none;
