@@ -10,6 +10,16 @@
   /*font-family: roboto;*/
 /*}*/
 
+.header-logo {
+  float: left;
+  width: 15%;
+  padding: 9px 10px;
+}
+
+a.thumbnail.active, a.thumbnail:focus, a.thumbnail:hover {
+  border-color: rgb(127, 205, 199);
+}
+
 .navbar, .navbar-default {
   background-color: rgb(127, 205, 199);
   border-color: rgb(127, 205, 199);
