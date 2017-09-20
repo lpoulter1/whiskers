@@ -80,6 +80,9 @@ a.thumbnail.active, a.thumbnail:focus, a.thumbnail:hover {
   width: 100px;
 }
 @media only screen and (max-width: 768px) {
+  .header-logo {
+    display: none;
+  }
   .footer {
     position: relative;
   }
