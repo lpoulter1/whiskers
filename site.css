@@ -4,11 +4,9 @@
   /*font-family: roboto;*/
 /*}*/
 
-/*body {*/
-  /*background-color: rgb(127, 205, 199);*/
-  /*color: white;*/
-  /*font-family: roboto;*/
-/*}*/
+body {
+  background-color: #F5F5F5;
+}
 
 .header-logo {
   float: left;
@@ -122,6 +120,7 @@ a.thumbnail.active, a.thumbnail:focus, a.thumbnail:hover {
 }
 
 .index_logo {
+  background-color: white;
   border: 1px solid;
   padding: 15px;
 }
