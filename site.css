@@ -47,6 +47,10 @@ a.thumbnail.active, a.thumbnail:focus, a.thumbnail:hover {
   margin-top: 15px;
 }
 
+.margin-bottom {
+  margin-bottom: 15px;
+}
+
 .margin-left {
   margin-left: 15px;
 }
@@ -64,7 +68,7 @@ a.thumbnail.active, a.thumbnail:focus, a.thumbnail:hover {
 }
 
 .review {
-  border: 1px dotted;
+  border: 1px solid #7fcdc7;
   padding: 15px;
 }
 
