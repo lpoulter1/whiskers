@@ -63,6 +63,11 @@ a.thumbnail.active, a.thumbnail:focus, a.thumbnail:hover {
   margin-bottom: 60px;
 }
 
+.review {
+  border: 1px dotted;
+  padding: 15px;
+}
+
 .footer {
   position: fixed;
   bottom: 0;
