@@ -47,6 +47,18 @@ a.thumbnail.active, a.thumbnail:focus, a.thumbnail:hover {
   margin-top: 15px;
 }
 
+.margin-left {
+  margin-left: 15px;
+}
+
+.margin-left-small {
+  margin-left: 5px;
+}
+
+.margin-right-small {
+  margin-left: 5px;
+}
+
 .margin-bottom-footer {
   margin-bottom: 60px;
 }
@@ -66,6 +78,22 @@ a.thumbnail.active, a.thumbnail:focus, a.thumbnail:hover {
 
 .footer a {
   color: white;
+}
+
+.img_small {
+  width: 5%;
+}
+
+.index_cat {
+  width: 25%;
+  float: right;
+  padding-right: 0;
+}
+
+.index_dog {
+  width: 5%;
+  float: left;
+  padding-right: 0;
 }
 
 .nav-logo-container {
